@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react";
 import "../scss/CategoriesDetail.scss";
 import { useParams, useLocation } from "react-router-dom";
 
@@ -15,7 +15,7 @@ const CategoriesDetail = () => {
   //einzelnes Objekt rausfiltern
 
   return (
-    <div className="">
+    <div className="product_card_parent_grid_detail">
       {data
         .filter((elt) => elt.id === uniqueId)
         .map((elt, index) => (
@@ -27,6 +27,10 @@ const CategoriesDetail = () => {
             <p>{elt.description}</p>
           </div>
         ))}
+      <div className="product_card_child_grid_detail_buttons">
+        <a href="/categories">Back</a>
+        <a href="/">Buy Now</a>
+      </div>
     </div>
   );
 };
