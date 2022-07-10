@@ -1,0 +1,43 @@
+[
+    {
+        "id": "1",
+        "category":"Desk",
+        "img": "images/table_flower.png",
+        "link": "Shop Now",
+        "price": "199€",
+        "description":"Der neue Mittelpunkt in Deinem EsszimmerDu liebst den rustikalen Industrial Look und möchtest diesen gerne in Deinem Ambiente integrieren? Dann ist unser Esstisch genau das Richtige!"
+    },
+    {
+        "id": "2",
+        "category":"Chair",
+        "img": "images/chair_gray.png",
+        "link": "Shop Now",
+        "price": "129€",
+        "description":"Trendstore „Anthea“ Stuhl mit Textilbezug in grün und Gestell in Eiche massiv geölt mit Metallkreuz in schwarz."
+
+    },
+    {
+        "id": "3",
+        "category":"Kitchenware",
+        "img": "images/kitchenware.png",
+        "link": "Shop Now",
+        "price": "49€",
+        "description":"Handgefertigte, runde und gebogene Schüssel aus Akazienholz, Größe 25,40x25,40x7,62 cm"
+
+    },  {
+        "id": "4",
+        "category":"Book Shelf",
+        "img": "images/shelf.png",
+        "link": "Shop Now",
+        "price": "235€",
+        "description":"Mit seinem versetzten, asymmetrischen Design passt dieses Bücherregal mühelos in zeitgenössische Einrichtungen. Sein Metallgestell trägt fünf Holzablagen, die eine naturbelassene Maserung aufweisen. Dieses Möbelstück hat ein offenes Design und ist ideal für die Aufbewahrung von Büchern, Dekoartikeln und vielem mehr. Eine Montage ist erforderlich."
+
+    },  {
+        "id": "5",
+        "category":"Electronics",
+        "img": "images/vintage_radio.png",
+        "link": "Shop Now",
+        "price": "89€",
+        "description":"Sie können das Gerät nicht nur über Netzbetrieb verwenden sondern auch mittels Batteriebetrieb (nicht im Lieferumfang enthalten). Legen sie einfach 4 LR 14 Batterien ein und los geht es! Somit steht einem uneingeschränkten Musikgenuss nichts mehr im Weg. Das Retro-Radio kann dadurch überall hin mitgenommen werden. Wenn Sie die Akkus nicht verwenden, können Sie das Gerät über das 150 cm Netzkabel mit Strom versorgen. 10. AUX-In Anschluss11. Köpfhöreranschluss"
+    }
+]

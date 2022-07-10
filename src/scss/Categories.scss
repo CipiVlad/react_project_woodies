@@ -1,0 +1,35 @@
+
+.product_card_parent_grid{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5%;
+
+    .product_card_child_grid{
+        background-color:rgb(210, 206, 206);
+        padding:10%;
+        height:80%;
+        margin: 5%;
+        border-radius: 0 140px 0 140px; /*TL TR BR BL*/        
+        
+        img{
+            width: 70%;
+        }
+        a{
+            display: block;
+            color: #3E3F43;
+            text-decoration: none;
+            border: 1px solid #3E3F43;
+            border-radius: 4px;
+            padding: 2px 2px;
+            margin-bottom: 20px;
+            width:200px;
+            text-align: center;
+        }
+    }
+
+
+}

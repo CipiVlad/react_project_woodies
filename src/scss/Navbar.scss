@@ -1,0 +1,45 @@
+.navbar_container{
+display: flex;
+justify-content: space-between;
+padding: 2%;
+
+ >a{
+    margin-left: 10%;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing:5px;
+    color:#3E3F43;
+    line-height:32.72px;
+ }
+.navbar_ul{
+ 
+    li {
+        list-style: none;
+        display:inline;
+     
+    }
+    a{
+        text-decoration: none;
+        padding: 20px;
+        font-weight: 400;
+        color:#222222;
+        opacity: 0.75;
+       } 
+    a:active{
+        color: #DAA520;
+        font-weight: 800;
+    } 
+    .navbar_signUp_link{
+        color:#222222;
+        font-weight: 700;
+        opacity: 0.75;
+    } 
+    .navbar_signUp_link{
+        border: 1px solid #3E3F43;
+        border-radius: 4px;
+        padding: 5px 22px;
+    }
+    
+}
+}
